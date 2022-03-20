@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/javascript-hesap-makinesi/static/css/main.b0b03b0b.css",
+    "main.js": "/javascript-hesap-makinesi/static/js/main.455a7cf3.js",
+    "static/js/787.a174f9e5.chunk.js": "/javascript-hesap-makinesi/static/js/787.a174f9e5.chunk.js",
+    "index.html": "/javascript-hesap-makinesi/index.html",
+    "main.b0b03b0b.css.map": "/javascript-hesap-makinesi/static/css/main.b0b03b0b.css.map",
+    "main.455a7cf3.js.map": "/javascript-hesap-makinesi/static/js/main.455a7cf3.js.map",
+    "787.a174f9e5.chunk.js.map": "/javascript-hesap-makinesi/static/js/787.a174f9e5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0b03b0b.css",
+    "static/js/main.455a7cf3.js"
+  ]
+}
