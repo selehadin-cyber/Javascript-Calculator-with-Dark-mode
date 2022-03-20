@@ -1,4 +1,4 @@
-import { evaluate, round } from "https://cdn.skypack.dev/mathjs";
+import { evaluate, round } from "mathjs";
 import React from "react";
 import { ThemeProvider } from "styled-components";
 import Button from "./components/Button";
