@@ -23,10 +23,14 @@ function Calculator(props) {
   const [decimalPressed, setDecimalPressed] = React.useState(false);
   const [isReseted, setIsReseted] = React.useState(true);
   const [theme, setTheme] = React.useState("light");
+  const [history, setHistory] = React.useState(Object.values(localStorage));
+
+  React.useEffect(() => {
+    history.map((e, idx) => localStorage.setItem(idx, history[idx]));
+  }, [history]);
 
   //clearing display
   const handleClear = () => {
-    console.log("clear");
     setInput("0");
     setDisplay("0");
     setIsReseted(true);
@@ -84,7 +88,7 @@ function Calculator(props) {
   const handleEquals = () => {
     let expression = display.replace("x", "*");
     let totalResult = round(evaluate(expression), 4);
-    //console.log("sonuc: " + totalResult.toString());
+    setHistory([...history, display]);
     setInput(totalResult);
     setDisplay(totalResult);
     setDecimalPressed(false);
@@ -112,6 +116,28 @@ function Calculator(props) {
           <div onClick={() => toggleFunction()}>
             <Toggle />
           </div>
+        </div>
+        <input type="checkbox" name="history" id="history" />
+        <label htmlFor="history">
+          <i className="fa fa-history" aria-hidden="true"></i>
+          <i className="fa-solid fa-caret-down"></i>
+        </label>
+        <div className="float">
+          {history.map((e, idx) => (
+            <div className="history-item" key={idx + 1}>
+              <p key={idx}>{e}</p>
+              <i
+                onClick={() => {
+                  setHistory(history.filter((e) => e !== history[idx]));
+                }}
+                key={idx - 1}
+                className="fa-solid fa-trash"
+              ></i>
+            </div>
+          ))}
+          {history.length > 1 ? (
+            <p onClick={() => setHistory([])}>tümünü sil</p>
+          ) : null}
         </div>
         <div id="calc-box">
           <div className="screen">
@@ -148,7 +174,7 @@ function Calculator(props) {
             <Button name="decimal" simbol="." onClick={handleDecimal}></Button>
           </div>
         </div>
-        <p>Coded with love by Selehadin A.</p>
+        <p>Kodlayan Selehadin A.</p>
       </div>
     </ThemeProvider>
   );

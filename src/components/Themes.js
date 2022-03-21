@@ -16,4 +16,11 @@ export const GlobalStyles = createGlobalStyle`
   #calc-box {
     border: ${(props) => props.theme.color} 5px solid;
   }
+  .float {
+    background-color: ${(props) => props.theme.background};
+  }
+  .fa, .fa-solid {
+    padding: 5px;
+    color: ${(props) => props.theme.color};
+  }
 `;

@@ -38,7 +38,23 @@ p {
     height: 18px;
     border-radius: 50%;
 }
-
+.float {
+  position: static;
+  display: none;
+}
+input {
+  display: none;
+}
+#history:checked ~.float {
+  display: block;
+}
+.history-item {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+  gap: 10px;
+}
 #calc-box {
   background-color: black;
   border: black 5px solid;
