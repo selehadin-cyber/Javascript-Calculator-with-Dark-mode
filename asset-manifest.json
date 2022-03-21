@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Javascript-Hesap-Makinesi/static/css/main.b0b03b0b.css",
-    "main.js": "/Javascript-Hesap-Makinesi/static/js/main.ea12d40e.js",
+    "main.css": "/Javascript-Hesap-Makinesi/static/css/main.6371895f.css",
+    "main.js": "/Javascript-Hesap-Makinesi/static/js/main.1e9bcb40.js",
     "static/js/787.a174f9e5.chunk.js": "/Javascript-Hesap-Makinesi/static/js/787.a174f9e5.chunk.js",
     "index.html": "/Javascript-Hesap-Makinesi/index.html",
-    "main.b0b03b0b.css.map": "/Javascript-Hesap-Makinesi/static/css/main.b0b03b0b.css.map",
-    "main.ea12d40e.js.map": "/Javascript-Hesap-Makinesi/static/js/main.ea12d40e.js.map",
+    "main.6371895f.css.map": "/Javascript-Hesap-Makinesi/static/css/main.6371895f.css.map",
+    "main.1e9bcb40.js.map": "/Javascript-Hesap-Makinesi/static/js/main.1e9bcb40.js.map",
     "787.a174f9e5.chunk.js.map": "/Javascript-Hesap-Makinesi/static/js/787.a174f9e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0b03b0b.css",
-    "static/js/main.ea12d40e.js"
+    "static/css/main.6371895f.css",
+    "static/js/main.1e9bcb40.js"
   ]
 }
