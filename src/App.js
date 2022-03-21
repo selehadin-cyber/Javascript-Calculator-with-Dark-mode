@@ -26,7 +26,8 @@ function Calculator(props) {
   const [history, setHistory] = React.useState(Object.values(localStorage));
 
   React.useEffect(() => {
-    history.map((e, idx) => localStorage.setItem(idx, history[idx]));
+    history.map((e, idx) => sessionStorage.setItem(idx, history[idx]));
+    return history.map((e, idx) => localStorage.setItem(idx, history[idx]));
   }, [history]);
 
   //clearing display
@@ -174,7 +175,24 @@ function Calculator(props) {
             <Button name="decimal" simbol="." onClick={handleDecimal}></Button>
           </div>
         </div>
-        <p>Kodlayan Selehadin A.</p>
+        <p>Kodlayan Selehadin A.
+
+        <a
+          href="https://www.linkedin.com/in/selehadin-a-7bb11116b/"
+          id="profile-link"
+          rel="noreferrer"
+          target="_blank">
+        <i class="fa fa-brands fa-linkedin"></i>
+        </a>
+        <a
+          href="https://github.com/selehadin-cyber/Javascript-Hesap-Makinesi"
+          id="profile-link"
+          rel="noreferrer"
+          target="_blank">
+        <i class="fa fa-brands fa-github"></i>
+        </a>
+        </p>
+        
       </div>
     </ThemeProvider>
   );
