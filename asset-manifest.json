@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Javascript-Hesap-Makinesi/static/css/main.6371895f.css",
-    "main.js": "/Javascript-Hesap-Makinesi/static/js/main.c323d66d.js",
-    "static/js/787.a174f9e5.chunk.js": "/Javascript-Hesap-Makinesi/static/js/787.a174f9e5.chunk.js",
-    "index.html": "/Javascript-Hesap-Makinesi/index.html",
-    "main.6371895f.css.map": "/Javascript-Hesap-Makinesi/static/css/main.6371895f.css.map",
-    "main.c323d66d.js.map": "/Javascript-Hesap-Makinesi/static/js/main.c323d66d.js.map",
-    "787.a174f9e5.chunk.js.map": "/Javascript-Hesap-Makinesi/static/js/787.a174f9e5.chunk.js.map"
+    "main.css": "/Javascript-Calculator-with-Dark-mode/static/css/main.6371895f.css",
+    "main.js": "/Javascript-Calculator-with-Dark-mode/static/js/main.3769ff85.js",
+    "static/js/787.a174f9e5.chunk.js": "/Javascript-Calculator-with-Dark-mode/static/js/787.a174f9e5.chunk.js",
+    "index.html": "/Javascript-Calculator-with-Dark-mode/index.html",
+    "main.6371895f.css.map": "/Javascript-Calculator-with-Dark-mode/static/css/main.6371895f.css.map",
+    "main.3769ff85.js.map": "/Javascript-Calculator-with-Dark-mode/static/js/main.3769ff85.js.map",
+    "787.a174f9e5.chunk.js.map": "/Javascript-Calculator-with-Dark-mode/static/js/787.a174f9e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6371895f.css",
-    "static/js/main.c323d66d.js"
+    "static/js/main.3769ff85.js"
   ]
 }
