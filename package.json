@@ -1,6 +1,6 @@
 {
   "name": "calculator",
-  "homepage": "https://selehadin-cyber.github.io/Javascript-Hesap-Makinesi/",
+  "homepage": "https://selehadin-cyber.github.io/Javascript-Calculator-with-Dark-mode/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
